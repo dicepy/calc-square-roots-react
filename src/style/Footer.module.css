@@ -1,0 +1,28 @@
+.footer{
+    height: 70px;
+    background-color: white;
+    z-index: 2;
+    width: 100%;
+    box-shadow: 0 0 10px black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.item{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+@media(max-width: 768px){
+    .item{
+        font-size: 15px;
+    }
+}
+
+.langimage{
+    height: 30px;
+    margin: 10px;
+}
